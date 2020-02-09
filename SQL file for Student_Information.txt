@@ -1,0 +1,20 @@
+CREATE TABLE STUDENT_INFORMATION
+(roll_no varchar2(8) CONSTRAINT primary PRIMARY KEY , name varchar2(20) , father_name varchar2(20) , city varchar2(20));
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW01' , 'Rohat' , ' Iftikhar' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW02' , 'Mahrukh' , ' Mohammed Ahmed Khan' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW03' , 'Sameera' , ' Mohammed Aslam' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW04' , 'Misbah' , ' Rizwan' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW05' , 'Aliza' , ' Zia Jamal' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW06' , 'Neha' , 'Mohammed Mubeen' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW07' , 'Ali' , 'Ahmed' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW08' , 'Sumair' , 'Tahir' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW09' , 'Areeza' , 'Ghulam Hussain' , 'Hyd');
+DELETE from student_information where roll_no = '18SW08';
+DELETE from student_information where roll_no = '18SW09';
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW10' , 'Amna' , 'Qadir Bux' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW11' , 'Alwaz' , 'Farhan Ahmed' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW13' , 'Insha' , 'Fida Hussain' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW14' , 'Iqra' , 'Irfan Ali' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW15' , 'Aqib' , 'Anwar Ali' , 'Hyd');
+INSERT INTO student_information(roll_no, name, father_name, city) VALUES ('18SW139' , 'Mujtaba' , 'Yousuf Khan' , 'Hyd');
+select * from student_information;
